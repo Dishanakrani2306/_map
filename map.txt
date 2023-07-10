@@ -1,0 +1,818 @@
+void main(){
+
+    Map<String,dynamic> Country = {
+
+      "Gujrat" : {
+        "Surat" :{
+          "Lords Plaza" :{
+            "Name" : "The Lords Plaza",
+            "Email" : "TheLordsPlaza123@gmail.com",
+            "Phone no" : 9562014782,
+            "Star" : 4
+          },
+          "The Grand Bhagwati" : {
+            "Name" : "The Grand Bhagwati",
+            "Email" : "TheGrandBhagwati54@gmail.com",
+            "Phone no" : 9854710025,
+            "Star" : ''
+          },
+          "Hotel royal Treat" : {
+            "Name" : "The Royal Treat",
+            "Email" :'',
+            "Phone no" : 9621400857,
+            "Star" : 3
+          },
+          "Hotel diamond26" : {
+            "Name" : "Diamond26",
+            "Email" : "TheDiamond26@gmail.com",
+            "Phone no" : 9699985744,
+            "Star" :5
+          },
+          "Marriott Hotel":{
+            "Name" : "Marriott Hotel",
+            "Email" : "Marriott@gmail.com",
+            "Phone no" : '',
+            "Star" :2
+          }
+        },
+        "Bhavanagar":{
+          "Nilambag Palace Hotel":{
+            "Name" : '',
+            "Email" : "NilambagPalace@gmail.com",
+            "Phone no" : '',
+            "Star": 4
+          },
+          "Narayani Heritage" : {
+            "Name" : "Narayani Heritage",
+            "Email" : "NarayaniHeritage11@gmail.com",
+            "Phone no" : '',
+            "Star" :2
+          },
+          "Hotel Clarks Collection" : {
+            "Name" : "Clarks Collection",
+            "Email" : "clarksCollection@gmail.com",
+            "Phone no" : 9587400256,
+            "Star" :''
+          },
+          "Iscon The Fern Resort" : {
+            "Name" : "",
+            "Email" : "IsconTheFern@gmail.com",
+            "Phone no" : 9502140205,
+            "Star" :3
+          },
+          "Saanvi Resort" : {
+            "Name" : "Saanvi Resort",
+            "Email" : "",
+            "Phone no" : '',
+            "Star" :5
+          }
+        },
+        "Vadodara" : {
+          "Sayaji Hotel" : {
+            "Name" : "The Sayaji Hotel",
+            "Email" : "TheSayaji44@gmail.com",
+            "Phone no" : 9958201477,
+            "Star" : ''
+          },
+          "Vivanta" : {
+            "Name" : "Vivanta Hotel",
+            "Email" : "Vivanta88@gmail.com",
+            "Phone no" : 9853620475,
+            "Star" :2
+          },
+          "Hotel Surya" : {
+            "Name" : "Hotel Surya",
+            "Email" : "HotelSurya@gmail.com",
+            "Phone no" : '',
+            "Star" : 4
+          },
+          "The Oasis Hotel" : {
+            "Name" : "The Oasis Hotel",
+            "Email" : "TheOasis@gmail.com",
+            "Phone no" : 9630254851,
+            "Star" :5
+          },
+          "Lemon Tree Hotel" : {
+            "Name" : "Lemon Tree Hotel",
+            "Email" : "LemonTree@gmail.com",
+            "Phone no" : 6523904258,
+            "Star" : 4
+          }
+        },
+        "Jamanagar" : {
+          "Hotel Aram" : {
+            "Name" : "Hotel Aram",
+            "Email" : "HotelAram@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Anaya Beacon Hotel" : {
+            "Name" : "Anaya Beacon Hotel",
+            "Email" : "AnayaBeacon21@gmail.com",
+            "Phone no" : 6523020145,
+            "Star" : 5
+          },
+          "Hotel President" : {
+            "Name" : "Hotel President",
+            "Email" : "HotelPresident55@gmail.com",
+            "Phone no" : '',
+            "Star" : 2 
+          },
+          "Hotel Fortune palcae" : {
+            "Name" : "Fortune Palace",
+            "Email" : "FortunePalace@gmail.com",
+            "Phone no" : 635140258522,
+            "Star" :4
+          },
+          "Hotel Kirti" :{
+            "Name" : "Hotel Kirti",
+            "Email" : "TheKirti@gmail.com",
+            "Phone no" : 8514269536,
+            "Star" :2.5
+          }
+        },
+        "Ahemdabad" : {
+          "Taj Skyline":{
+            "Name" : "Taj SkyLine",
+            "Email" : "TajskyLine@gmail.com",
+            "Phone no" : 6325900245,
+            "Star" :3.4
+          },
+          "Novotel":{
+            "Name" : "Novotel Hotel",
+            "Email" : "TheNovotel33@gmail.com",
+            "Phone no" : 6852036952,
+            "Star" :''
+          },
+          "Wyndham Shela":{
+            "Name" : "Wyndham Shela Hotel",
+            "Email" : "WyndhamShela@gmail.com",
+            "Phone no" : '',
+            "Star" :4
+          },
+          "Fortune Landmark":{
+            "Name" : "Fortune Landmark",
+            "Email" : "fortuneLandmark@gmail.com",
+            "Phone no" : 9102563584,
+            "Star" :5
+          },
+          "Radisson Blu Hotel":{
+            "Name" : "Radisson Blu Hotel",
+            "Email" : "RadissonBlu@gmail.com",
+            "Phone no" : 9584625441,
+            "Star" :2
+          }
+        },
+      },
+      "Maharashtra" : {
+        "Mumbai" : {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : " ",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+        },
+        "Pune" : {
+          "Sunset's View" :{
+            "Name" : "Sunset's View ",
+            "Email" : "Sunsetview@gmail.com",
+            "Phone no" : 6958741265,
+            "Star" :5
+          },
+          "Double Forest" : {
+            "Name" : "Double Forest",
+            "Email" : "DoubleForest123@gmail.com",
+            "Phone no" : 9587425630,
+            "Star" :2
+          },
+          "The Neighborhood" : {
+            "Name" : "The Neighborhood",
+            "Email" : "TheNeighborhood22@gmail.com",
+            "Phone no" : '',
+            "Star" :3
+          },
+          "Ginger Resort" : {
+            "Name" : "",
+            "Email" : "GingerResort11@gmail.com",
+            "Phone no" : 9532014785,
+            "Star" :''
+          },
+          "Blue Moon" : {
+            "Name" : "Blue Moon",
+            "Email" : "BlueMoon12@gmail.com",
+            "Phone no" : 9587458555,
+            "Star" :2
+          }
+        },
+        "Nagpur":{
+          "Quaint Motel" : {
+            "Name" : "Quaint Motel",
+            "Email" : "",
+            "Phone no" : 6356985214,
+            "Star" :5
+          },
+          "Hot Springs" : {
+            "Name" : "Hot Springs",
+            "Email" : "HotSprings123@gmail.com",
+            "Phone no" : '',
+            "Star" :2
+          },
+          "Rooftop Resort" : {
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          },
+          "The Glory Hotel" : {
+            "Name" : "The Glory Hotel",
+            "Email" : "GloryHotel11@gmail.com",
+            "Phone no" : 9584102306,
+            "Star" :2
+          },
+          "River Park Hotel" : {
+            "Name" : "River Park Hotel",
+            "Email" : "RiverPark@gmail.com",
+            "Phone no" : 9854762584,
+            "Star" :3
+          }
+        },
+        "Thane" : {
+          "White season Resort" : {
+            "Name" : "White season Resort",
+            "Email" : "WhiteSeasonResort@gmail.com",
+            "Phone no" : 9514785236,
+            "Star" :''
+          },
+          "Moonlight" :{
+            "Name" : "Moonlight",
+            "Email" : "",
+            "Phone no" : '',
+            "Star" :2
+          },
+          "The Royal Hotel" : {
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          },
+          "Ace Hotel" : {
+            "Name" : "Ace Hotel",
+            "Email" : "AceHotel@gmail.com",
+            "Phone no" : 9630251478,
+            "Star" :4
+          },
+          "Palm Hotel" : {
+            "Name" : "Palm Hotel",
+            "Email" : "PalmHotel@gmail.com",
+            "Phone no" : '',
+            "Star" :3
+          }
+        },
+        "Nashik" : {
+          "Circle Motel" : {
+            "Name" : "Circle Hotel",
+            "Email" : "CircleHotel2@gmail.com",
+            "Phone no" : 9658741255,
+            "Star" :5
+          },
+          "Big dreams Hotel" : {
+            "Name" : "Big Dreams Hotel",
+            "Email" : "BigDreams5@gmail.com",
+            "Phone no" : 9512042584,
+            "Star" :1
+          },
+          "Happy Hotel" : {
+            "Name" : "Happy Hotel",
+            "Email" : "HappyHotel99@gmail.com",
+            "Phone no" : 7584123652,
+            "Star" :2
+          },
+          "Pearl Hotel" : {
+            "Name" : "Pearl Hotel",
+            "Email" : "",
+            "Phone no" : 9514785478,
+            "Star" :''
+          },
+          "Travel Bug" : {
+            "Name" : "Travle Bug",
+            "Email" : "",
+            "Phone no" : '',
+            "Star" :4
+          }
+        }
+      },
+      "Punjab" : {
+        "Ludhiana" : {
+          "Silent Dragon" : {
+            "Name" : "Silent Dragon",
+            "Email" : "Silentdragon12@gmail.com",
+            "Phone no" : 9587412355,
+            "Star" :2
+          },
+          "Always Available" : {
+             "Name" : "Always Available",
+            "Email" : "AlwaysAvailable@gmail.com",
+            "Phone no" : 9587465862,
+            "Star" :1
+          },
+          "Planters Inn" : {
+             "Name" : "Planters Inn",
+            "Email" : "",
+            "Phone no" : 9632012542,
+            "Star" :5
+          },
+          "Galactic Hotel" : {
+             "Name" : "Galactic Hotel",
+            "Email" : "GalacticHotel@gmail.com",
+            "Phone no" : 9586325632,
+            "Star" :''
+          },
+          "The Park Lane" :{
+             "Name" : "The Park Lane",
+            "Email" : "TheParkLane@gmail.com",
+            "Phone no" : 9586301477,
+            "Star" :3
+          }
+        },
+        "Amritsar" : {
+          "Distrikt Hotel" :{
+             "Name" : "Distrikt Hotel",
+            "Email" : "DistriktHotel11@gmail.com",
+            "Phone no" : 9658965896,
+            "Star" :3
+          },
+          "La Fountain" : {
+             "Name" : "La Fountain",
+            "Email" : "LaFountain@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          },
+          "The Royal Motel" : {
+             "Name" : "The Royal Motel",
+            "Email" : "theRoyalMotel@gmail.com",
+            "Phone no" : 9651420102,
+            "Star" :5
+          },
+          "Knights Inn" : {
+             "Name" : "Knights Inn",
+            "Email" : "KnightsInn@gmail.com",
+            "Phone no" : 9532012547,
+            "Star" :1
+          },
+          "Hotel Strata" :{
+             "Name" : "Hotel Strata",
+            "Email" : "HotelStrata99@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          }
+        },
+        "Jalandhar" : {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : " ",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+          
+        },
+        "Patiala" :{
+          "Golden Palace" : {
+            "Name" : "Golden Palace",
+            "Email" : "GoldenPalace123@gmail.com",
+            "Phone no" : '',
+            "Star" :4
+          },
+          "Winter Motel" : {
+            "Name" : "Winter Motel",
+            "Email" : "WinterMotel@gmail.com",
+            "Phone no" : 9633652014,
+            "Star" :2
+          },
+          "The Talbott Hotel" :{
+            "Name" : "The Talbott Hotel",
+            "Email" : "TheTalbott@gmail.com",
+            "Phone no" : 9574125852,
+            "Star" :2
+          },
+          "Temporary Home" :{
+            "Name" : "Temporary Home",
+            "Email" : "TemporaryHome@gmail.com",
+            "Phone no" : 6320142510,
+            "Star" :5
+          },
+          "USA Hotels" : {
+            "Name" : "USA Hotels",
+            "Email" : "USAHotel@gmail.com",
+            "Phone no" : 7852145632,
+            "Star" :''
+          }
+        },
+        "Batala" :{
+          "Happy Stay" : {
+            "Name" : "Happy Stay",
+            "Email" : "HappyStay5@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          },
+          "Always Available" : {
+            "Name" : "Always Available",
+            "Email" : "AlwaysAvailable@gmail.com",
+            "Phone no" : 9587465862,
+            "Star" :1
+          },
+          "Planters Inn" : {
+            "Name" : "Planters Inn",
+            "Email" : "PlantersInn11@gmail.com",
+            "Phone no" : 9574145785,
+            "Star" :5
+          },
+          "Galactic Hotel" : {
+            "Name" : "Galactic Hotel",
+            "Email" : "GalacticHotel12@gmail.com",
+            "Phone no" : 9632015478,
+            "Star" :2
+          },
+          "The Park Lane" :{
+            "Name" : "The Park Line",
+            "Email" : "TheParkLine12@gmail.com",
+            "Phone no" : 9352418521,
+            "Star" :4
+          }
+        }
+      },
+      "Tamilnadu" : {
+        "Chennai" : {
+          "Circle Motel" : {
+            "Name" : "Circle Hotel",
+            "Email" : "CircleHotel2@gmail.com",
+            "Phone no" : 9658741255,
+            "Star" :5
+          },
+          "Big dreams Hotel" : {
+            "Name" : "Big Dreams Hotel",
+            "Email" : "BigDreams5@gmail.com",
+            "Phone no" : 9512042584,
+            "Star" :1
+          },
+          "Happy Hotel" : {
+            "Name" : "Happy Hotel",
+            "Email" : "HappyHotel99@gmail.com",
+            "Phone no" : 7584123652,
+            "Star" :2
+          },
+          "Pearl Hotel" : {
+            "Name" : "Pearl Hotel",
+            "Email" : "",
+            "Phone no" : 9514785478,
+            "Star" :''
+          },
+          "Travel Bug" : {
+            "Name" : "Travle Bug",
+            "Email" : "",
+            "Phone no" : '',
+            "Star" :4
+          }
+        },
+        "Madurai" : {
+          "Lords Plaza" :{
+            "Name" : "The Lords Plaza",
+            "Email" : "TheLordsPlaza123@gmail.com",
+            "Phone no" : 9562014782,
+            "Star" : 4
+          },
+          "The Grand Bhagwati" : {
+            "Name" : "The Grand Bhagwati",
+            "Email" : "TheGrandBhagwati54@gmail.com",
+            "Phone no" : 9854710025,
+            "Star" : ''
+          },
+          "Hotel royal Treat" : {
+            "Name" : "The Royal Treat",
+            "Email" :'',
+            "Phone no" : 9621400857,
+            "Star" : 3
+          },
+          "Hotel diamond26" : {
+            "Name" : "Diamond26",
+            "Email" : "TheDiamond26@gmail.com",
+            "Phone no" : 9699985744,
+            "Star" :5
+          },
+          "Marriott Hotel":{
+            "Name" : "Marriott Hotel",
+            "Email" : "Marriott@gmail.com",
+            "Phone no" : '',
+            "Star" :2
+          }
+        },
+        "Tirunelveli" : {
+          "Lords Plaza" :{
+            "Name" : "The Lords Plaza",
+            "Email" : "TheLordsPlaza123@gmail.com",
+            "Phone no" : 9562014782,
+            "Star" : 4
+          },
+          "The Grand Bhagwati" : {
+            "Name" : "The Grand Bhagwati",
+            "Email" : "TheGrandBhagwati54@gmail.com",
+            "Phone no" : 9854710025,
+            "Star" : ''
+          },
+          "Hotel royal Treat" : {
+            "Name" : "The Royal Treat",
+            "Email" :'',
+            "Phone no" : 9621400857,
+            "Star" : 3
+          },
+          "Hotel diamond26" : {
+            "Name" : "Diamond26",
+            "Email" : "TheDiamond26@gmail.com",
+            "Phone no" : 9699985744,
+            "Star" :5
+          },
+          "Marriott Hotel":{
+            "Name" : "Marriott Hotel",
+            "Email" : "Marriott@gmail.com",
+            "Phone no" : '',
+            "Star" :2
+          }
+        },
+        "Kanchipuram" : {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : " ",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+        },
+        "Kanyakumari" : {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : "",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+        }
+      },
+      "Karnataka" : {
+        "Bangalore" : {
+          "Happy Stay" : {
+            "Name" : "Happy Stay",
+            "Email" : "HappyStay5@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          },
+          "Always Available" : {
+            "Name" : "Always Available",
+            "Email" : "AlwaysAvailable@gmail.com",
+            "Phone no" : 9587465862,
+            "Star" :1
+          },
+          "Planters Inn" : {
+            "Name" : "Planters Inn",
+            "Email" : "PlantersInn11@gmail.com",
+            "Phone no" : 9574145785,
+            "Star" :5
+          },
+          "Galactic Hotel" : {
+            "Name" : "Galactic Hotel",
+            "Email" : "GalacticHotel12@gmail.com",
+            "Phone no" : 9632015478,
+            "Star" :2
+          },
+          "The Park Lane" :{
+            "Name" : "The Park Line",
+            "Email" : "TheParkLine12@gmail.com",
+            "Phone no" : 9352418521,
+            "Star" :4
+          }
+        },
+        "Kalaburagi" : {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : " ",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+        },
+        "Mysore" : {
+          "Distrikt Hotel" :{
+             "Name" : "Distrikt Hotel",
+            "Email" : "DistriktHotel11@gmail.com",
+            "Phone no" : 9658965896,
+            "Star" :3
+          },
+          "La Fountain" : {
+             "Name" : "La Fountain",
+            "Email" : "LaFountain@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          },
+          "The Royal Motel" : {
+             "Name" : "The Royal Motel",
+            "Email" : "theRoyalMotel@gmail.com",
+            "Phone no" : 9651420102,
+            "Star" :5
+          },
+          "Knights Inn" : {
+             "Name" : "Knights Inn",
+            "Email" : "KnightsInn@gmail.com",
+            "Phone no" : 9532012547,
+            "Star" :1
+          },
+          "Hotel Strata" :{
+             "Name" : "Hotel Strata",
+            "Email" : "HotelStrata99@gmail.com",
+            "Phone no" : '',
+            "Star" :5
+          }
+        },
+        "Mangalore": {
+          "The Taj Mahal Tower": {
+            "Name" : "The Taj",
+            "Email" : "TheTajHotel@gmail.com",
+            "Phone no" : 9548236588,
+            "Star" :5
+          },
+          "Trident Nariman Point" : {
+            "Name" : "",
+            "Email" : "TridentNarimanPoint@gmail.com",
+            "Phone no" : '',
+            "Star" : 3
+          },
+          "Trident bandra Kurla":{
+            "Name" : "Trident bandra Kurla",
+            "Email" : " ",
+            "Phone no" : 6584236952,
+            "Star" :2
+          },
+          "The lalit Mumbai" : {
+            "Name" : "Hotel Lalit Hotel",
+            "Email" : "TheLalit22@gmail.com",
+            "Phone no" : 6547201025,
+            "Star" :''
+          },
+          "Goldfinch Hotel " :{
+            "Name" : "Goldfinch Hotel",
+            "Email" : "GoldFinch123@gmail.com",
+            "Phone no" : 6020147856,
+            "Star" :4
+          }
+        },
+        "Bellary" : {
+          "Circle Motel" : {
+            "Name" : "Circle Hotel",
+            "Email" : "CircleHotel2@gmail.com",
+            "Phone no" : 9658741255,
+            "Star" :5
+          },
+          "Big dreams Hotel" : {
+            "Name" : "Big Dreams Hotel",
+            "Email" : "BigDreams5@gmail.com",
+            "Phone no" : 9512042584,
+            "Star" :1
+          },
+          "Happy Hotel" : {
+            "Name" : "Happy Hotel",
+            "Email" : "HappyHotel99@gmail.com",
+            "Phone no" : 7584123652,
+            "Star" :2
+          },
+          "Pearl Hotel" : {
+            "Name" : "Pearl Hotel",
+            "Email" : "",
+            "Phone no" : 9514785478,
+            "Star" :''
+          },
+          "Travel Bug" : {
+            "Name" : "Travle Bug",
+            "Email" : "",
+            "Phone no" : '',
+            "Star" :4
+          }
+        }
+      },
+
+    };
+}
